@@ -53,3 +53,5 @@ console.log(acTemp);
 
 console.log(typeof"123");
 console.log(typeof true)
+
+
