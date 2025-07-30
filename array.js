@@ -106,13 +106,35 @@
 // console.log('after',uuser);
 
 //splice modifies
-const uuser =[10,20,30,40,50]
-console.log('before',uuser);
-// const newArr = uuser.splice(3)
-// const newArr = uuser.splice(1,3)
-// const newArr = uuser.splice(1,2,60)
-const newArr = uuser.splice(1,2,89,90)
-console.log('newArr',newArr);
-console.log('after',uuser);
+// const uuser =[10,20,30,40,50]
+// console.log('before',uuser);
+// // const newArr = uuser.splice(3)
+// // const newArr = uuser.splice(1,3)
+// // const newArr = uuser.splice(1,2,60)
+// const newArr = uuser.splice(1,2,89,90)
+// console.log('newArr',newArr);
+// console.log('after',uuser);
 
 
+// Reduce Mathod
+const fruits=['apple','banana','apple','orange','banana'];
+const count=fruits.reduce((acc,fruit)=>
+{
+    acc[fruit]=(acc[fruit] || 0)+1;
+    console.log(acc);
+    return acc;
+    
+},{});
+console.log(count);
+
+const arr=[10,20,30,40,50];
+// const sum= arr.reduce((acc,arr)=> acc+arr,0);
+// console.log(sum);
+
+
+const add = arr.reduce((acc,currVal)=>{
+    console.log(acc);
+    return acc + currVal;
+    
+})
+console.log(add);

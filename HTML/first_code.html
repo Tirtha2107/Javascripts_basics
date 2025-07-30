@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div class="first-div">
+        <h1 id="first-heading" class="first">Dom learning</h1>
+        <p class="para">para 1</p>
+        <h2>seond heading</h2>
+    </div>
+    <div>
+        <ul>
+            <li>one</li>
+            <li>two</li>
+        </ul>
+    </div>
+</body>
+
+<script>
+    console.log("hello world");
+    const firstHeading=document.getElementById('first-heading');
+    console.log(firstHeading);
+    console.log(firstHeading.id);
+    console.log(firstHeading.className);
+    const firstDiv=document.getElementsByClassName('first-div')
+    console.log(firstDiv);
+    // const tag=document.getElementsByTagName('h1')
+    // const tag=document.getElementsByTagName('div')
+    const tag=document.getElementsByTagName('li')
+    console.log(tag);
+    const s=document.querySelector('#first-heading')
+    console.log(s);
+    const sq1=document.querySelectorAll('.first-div')
+    console.log(sq1);
+    
+    
+    
+firstHeading.style.color='red'    
+firstHeading.style.fontSize="120px"  
+firstHeading.style.fontFamily='serif'  
+</script>    
+    
+</html>

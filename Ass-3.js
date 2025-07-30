@@ -123,11 +123,49 @@
 // }
 // console.log(person.greet())
 
-const person=
+// const person=
+// {
+//     name: "tirtha",
+//     g: ()=>{
+//         return ("Hello," + this.name)
+//     }
+// }
+// console.log(person.g());
+
+// const fruits=['apple','banana','cherry'];
+// for (const fruit of fruits)
+// {
+//     console.log(fruit.toUpperCase());
+    
+// }
+
+// const student=["Ravi","Priya","Amit"];
+// for(const elem of student)
+// {
+//     console.log(`Welcom,${elem}!`);
+// }
+
+
+const scores =[80,90,100];
+for(const index of scores)
 {
-    name: "tirtha",
-    g: ()=>{
-        return ("Hello," + this.name)
-    }
+    console.log(index*2);
+    
 }
-console.log(person.g());
+
+const numbers=[11,22,33,44,55];
+numbers.forEach((num)=>{
+    if(num%2==0)
+    {
+        console.log("Even number",num);
+    }
+    
+});
+
+const firstNames=["Asha","Vikram"];
+const lastNames=["Singh","Sharma"];
+
+for(let [index,firstName] of firstNames.entries())
+{
+    console.log(firstName+ ' ' + lastNames[index]);
+}
