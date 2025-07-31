@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <form>
+  <!-- <label for="name">UserName:</label> -->
+  <!-- <input type="text" id="name" name="username" required style="margin-bottom: 80px;"> <br> -->
+   <input type="text" placeholder="Enter Something" required>
+  <button type="submit" style="padding: 5px; border-radius: 10px; font-size: 20px ;text-align:center; color:red;margin-left: 80px;">Submit</button>
+  </form>
+    
+</body>
+<script>
+    
+    const btn =document.querySelector('form');
+    console.log(btn);
+    btn.addEventListener('submit',()=>{
+        alert("Form Submitted very good");
+    })
+</script>    
+</html>

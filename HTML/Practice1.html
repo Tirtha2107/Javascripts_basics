@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> "Practice1" </title>
+
+</head>
+<body>
+        <h1 id="first-heading">Hello World</h1>
+        <p class="para">DOM Learnig is imp</p>
+        <p class="para">welcome home</p>
+        <p class="para">third</p>
+        <ul>
+            <li> JAVA </li>
+            <li> OOP </li>
+            <li> PYTHON </li>
+        </ul>
+</body>    
+<script>
+        const firstH=document.getElementById("first-heading");
+        console.log(firstH);
+        // firstH.style.fontSize='90px';
+        firstH.style.cssText="font-size:90px;color:red";
+
+        const para = document.querySelectorAll('.para');
+        console.log(para);
+        // para[0].style.cssText="border:solid; padding: 20px; border-radius:10px"
+        // para[1].style.cssText="border:solid; padding: 20px; border-radius:10px"
+        // para[2].style.cssText="border:solid; padding: 20px; border-radius:10px"
+        para.forEach((val)=>{
+            val.style.cssText="border:solid; padding: 20px; border-radius:10px"
+            val.style.backgroundColor="yellow"
+        })
+        const liist=document.querySelectorAll("li");
+        console.log(liist);
+        liist.forEach((val1)=>{
+            val1.style.cssText="background-color:blue; margin-bottom=5px;font-size:20px"
+        })
+        
+
+    
+        
+        
+
+</script>  
+</html> 

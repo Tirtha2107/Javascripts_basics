@@ -18,21 +18,21 @@
 // console.log(Object.entries(studentInfo)); 
 
 
-const fromData={
-    name:"Arohi",
-    age:21,
-    email:"arohi@21gmail.com"
-};
+// const fromData={
+//     name:"Arohi",
+//     age:21,
+//     email:"arohi@21gmail.com"
+// };
 
-const googleData={
-    email:"hina@21gmail.com",
-    profie:"gjg",
-    googleId:"123457"
-};
-const googleData1={
-    name:"Ram",
-    age:30
-};
+// const googleData={
+//     email:"hina@21gmail.com",
+//     profie:"gjg",
+//     googleId:"123457"
+// };
+// const googleData1={
+//     name:"Ram",
+//     age:30
+// };
 
 // Date-29/07/2025
 // const completUserProfile=Object.assign(fromData,googleData1,googleData)
@@ -43,7 +43,7 @@ const googleData1={
 // }
 // console.log(spread_op);
 
-const{name,age,email}=fromData // object destructuring
-console.log(age);
-console.log(name);
+// const{name,age,email}=fromData // object destructuring
+// console.log(age);
+// console.log(name);
 

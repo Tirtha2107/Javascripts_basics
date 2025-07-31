@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div id ="first-div" style="text-align:center">
+    <button id="red" style="padding: 5px; border-radius: 10px; font-size: 20px ;text-align:center; color:red;">Red</button>
+    <button id="green" style="padding: 5px; border-radius: 10px; font-size: 20px ;text-align:center; color:green;">Green</button>
+    <button id="blue" style="padding: 5px; border-radius: 10px; font-size: 20px ;text-align:center; color:blue;">Blue</button>
+
+</body>
+<script>
+    const btn =document.querySelectorAll('button');
+    console.log(btn);
+    
+    const body=document.querySelector('body')
+    console.log(body);
+    
+     btn.forEach((btnn)=>{
+        btnn.addEventListener("click",(e)=>{
+        console.log(e.target.id);
+        if(e.target.id === 'red'){
+            body.style.background=e.target.id;
+        }
+        else if (e.target.id==='green'){
+            body.style.background=e.target.id;
+        }
+        else if (e.target.id==='blue'){
+            body.style.background=e.target.id;
+        }
+        
+            
+           })
+
+    })
+
+</script>
+</html>
+
+

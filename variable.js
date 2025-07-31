@@ -13,7 +13,7 @@
 // num=20;
 // console.log("before block scope",num);
 // {
-//     let num=20;
+//     let num=10;
 //     console.log("inside block scope",num);
 // }
 // console.log("after block scope",num);
@@ -25,13 +25,13 @@
 //     console.log("inside block scope",num);
 // }
 // console.log("after block scope",num);
-// // console.log(typeof num)
+// console.log(typeof num)
 
-// console.log(Number.MAX_SAFE_INTEGER);
+console.log(Number.MAX_SAFE_INTEGER);
 // let no= 999999999999999999n;
-// let no = BigInt("777777777777777777777777777")
-// console.log(no);
-// console.log(typeof no);
+let no = BigInt("777777777777777777777777777")
+console.log(no);
+console.log(typeof no);
 
 // const user ={
 //     userName :"Arohi",
@@ -43,15 +43,10 @@
 // console.log(user.age);
 // console.log(user["userName"]);
 
-let acTemp = null;
-
-console.log("hello world");
-
-
-
-console.log(acTemp);
-
-console.log(typeof"123");
-console.log(typeof true)
+// let acTemp = null;
+// console.log("hello world");
+// console.log(acTemp);
+// console.log(typeof"123");
+// console.log(typeof true)
 
 

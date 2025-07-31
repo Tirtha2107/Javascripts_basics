@@ -1,8 +1,19 @@
-// console.log("1" +"2");
-// console.log(1+2+"2");
-// console.log("1" +2+2);
-// console.log(1 + 1 +"2");
-// console.log("1" +2 +2);
+// console.log("1" +"2");  //12
+// console.log(1+2+"2");   //32
+// console.log("1" +2+2);   //122 
+// console.log(1 + 1 +"2");  //22
+
+
+
+// // Basic Arithmetic operation
+// let num1=21;
+// let num2=3;
+// console.log("Add",num1+num2);
+// console.log("Sub",num1-num2);
+// console.log("Mul",num1*num2);
+// console.log("Div",num1/num2);
+// console.log("Rem",num1%num2);
+// console.log("Expo",num1**2);
 
 
 // //Increament Decreament
@@ -11,8 +22,8 @@
 // console.log(x); // postfix first it will assign and then increament
 // console.log(y);
 
-// let=x=3;
-// y=++x;
+// let x=3;
+// y=--x;
 // console.log(x); // prefix first increament and then assign
 // console.log(y); 
 
@@ -105,9 +116,3 @@
 let num= undefined ?? 10;
 console.log(num);
 
-function addNum(num1, num2){
-    return num1 + num2;
-    console.log("i am here");
-    
-}
-console.log(addNum(10,20));

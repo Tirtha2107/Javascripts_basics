@@ -1,4 +1,4 @@
-// // for loop
+ // // for loop
 
 // for (let i=2;i<=10;i+=2)
 // {
@@ -9,7 +9,7 @@
 //   console.log(i);
 // }
 
-// // for loop
+// // // for loop
 
 // for (let i = 1; i <= 10; i++) {
 //   if (i % 2 === 0) {
@@ -18,25 +18,25 @@
 // }
 
 
-let sum = 0;
-for (let i = 1; i <= 4; i++) {
-  sum += i;
-}
-console.log(sum); //output=10
+// let sum = 0;
+// for (let i = 1; i <= 4; i++) {
+//   sum += i;
+// }
+// console.log(sum); //output=10
 
-for (let i = 1; i <= 10; i++) {
-  if (i === 5) {
-    break;
-  }
-  console.log(i);
-}
+// for (let i = 1; i <= 10; i++) {
+//   if (i === 5) {
+//     break;
+//   }
+//   console.log(i);
+//  }
 
-for (let i = 1; i <= 5; i++) {
-  if (i === 3) {
-    continue;
-  }
-  console.log(i);
-}
+// for (let i = 1; i <= 5; i++) {
+//   if (i === 3) {
+//     continue;
+//   }
+//   console.log(i);
+// }
 
 // // while loop
 
@@ -48,8 +48,8 @@ for (let i = 1; i <= 5; i++) {
 
 // do..while loop
 
-let x = 10;
-do {
-  console.log("Value of x:", x);
-  x++;
-} while (x < 5);
+// let x = 3;
+// do {
+//   console.log("Value of x:", x);
+//   x++;
+// } while (x < 5);
