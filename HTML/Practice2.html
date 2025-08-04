@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1 id="first-heading">  Hello world <span style="display: none;">welcome to world</span> </h1>
+    <ul>
+        <li> one </li>
+        <li> two </li>
+        <li> three </li>
+        <li> four </li>
+
+    </ul> -->
+    <h1> first-heading </h1>
+    <h2> second-heading </h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis iste alias possimus delectus, minima vel voluptas ducimus in similique nihil aperiam sunt corporis voluptatibus dolores impedit repellat illum illo laboriosam.</p>
+
+    
+</body>
+
+<script>
+    // const hello=document.getElementById('first-heading');
+    // console.log(hello.textContent);
+    // console.log(hello.innerHTML);
+    // console.log(hello.innerText);
+    // hello.innerText='hello Tirtha';
+    // const ulist= document.querySelector('ul');
+    // console.log(ulist.children);
+    // console.log(ulist.childNodes);
+
+    
+    const ele=document.createElement('h1'); //element create
+    ele.id='ele-heading'; //id pass
+    ele.className='para'; //class pass as para
+    const textNode=document.createTextNode("hello tirtha welcome to JS") //create textNode
+    ele.appendChild(textNode); //appendchild
+    document.body.appendChild(ele) // append child
+
+    const paragraph = document.createElement('p');
+    paragraph.className = 'paraclass';
+    const textNode1 = document.createTextNode("Hello p tag")
+
+    paragraph.appendChild(textNode1);
+    document.body.appendChild(paragraph);
+
+    const secdh = document.querySelector('h2');
+    // secdh.remove();
+    secdh.replaceWith(paragraph);
+
+
+    
+    
+    
+</script>
+</html>

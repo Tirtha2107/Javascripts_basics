@@ -12,6 +12,8 @@
 // console.log(arr.push(4)); //push
 // console.log(arr);
 // arr.pop(); //pop
+// console.log(arr);
+
 // console.log(arr.includes('arohi')); //include
 // console.log(arr.indexOf(21)); //indexOf
 
@@ -19,9 +21,9 @@
 // // console.log([...arr,...arr1]); // spread operator
 // let user1='tirtha'
 
-// // // to check whether array or not
-// console.log(Array.isArray(user1));
-// //console.log(Array.isArray(arr));
+// // to check whether array or not
+// // console.log(Array.isArray(user1));
+// console.log(Array.isArray(arr));
 
 // console.log(Array.from(user1));
 
@@ -34,8 +36,7 @@
 //slice
 // let u=[10,20,30,40,50]
 // console.log(u.slice(0,3));
-// //splice
-// console.log(u.splice(0,3));
+// console.log(u.slice(-4,3));
 // console.log(u);
 
 
@@ -81,12 +82,12 @@
 // console.log('newArr',newArr);
 // console.log('after',uuser);
 
-//splice modifies
-const uuser =[10,20,30,40,50]
+// splice modifies
+const uuser =[11,7,21,90,32]
 console.log('before',uuser);
 // const newArr = uuser.splice(3)
-// const newArr = uuser.splice(1,3)
-const newArr = uuser.splice(1,2,60)
+ const newArr = uuser.splice(1,3)
+//const newArr = uuser.splice(1,2,60)
 // const newArr = uuser.splice(1,2,89,90)
 console.log('newArr',newArr);
 console.log('after',uuser);
@@ -103,9 +104,9 @@ console.log('after',uuser);
 // },{});
 // console.log(count);
 
-// const arr=[10,20,30,40,50];
-// const sum= arr.reduce((acc,arr)=> acc+arr,0);
-// console.log(sum);
+const arr=[11,21,3,45,90];
+const sum= arr.reduce((acc,arr)=> acc+arr,0);
+console.log(sum);
 
 
 // const add = arr.reduce((acc,currVal)=>{

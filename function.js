@@ -103,11 +103,39 @@
 
 
 
-function r(arr)
-{
-    for(const elem of arr){
-        console.log(elem);
+// function r(arr)
+// {
+//     for(const elem of arr){
+//         console.log(elem);
         
-    }
+//     }
+// }
+// arr([1,2,3])
+
+
+// Callback
+
+// function greet(callback)
+// {
+//     console.log("hello");
+//     callback();
+    
+// }
+// function saybye()
+// {
+//     console.log("Tirtha");
+    
+// }
+// greet(saybye);
+
+function greet(name,callback)
+{
+    console.log(name);
+    setTimeout(callback,1000)
 }
-arr([1,2,3])
+
+function d()
+{
+    console.log("Good morning");    
+}
+greet('Arohi',d); 

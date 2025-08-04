@@ -1,0 +1,150 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>DOM Click Example</title>
+</head>
+<body>
+
+<h1 id="Heading">heading</h1>
+
+<script>
+  const heading = document.getElementById("Heading");
+  heading.addEventListener("click", function() {
+    heading.textContent = "Welcome to DOM World";
+  });
+</script>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>ASS-6</title>
+</head>
+<body>
+    <div id = "con"> <p> Befor. </div>
+    <button id="btn"> Add New Para</button>
+
+<script>  
+    const button= document.getElementById("btn");
+    const con= document.getElementById("con");
+    button.addEventListener("click",function(){
+        const newpara = document.createElement("p");
+        newpara.textContent = "New Content";
+        con.appendChild(newpara)
+    });
+</script>
+</body>
+</html>
+ -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ass-6</title>
+</head>
+<body>
+    <img id="image" src="https://via.placeholder.com/150" alt="Sample Image"></img>
+    <button id="btn"> Hide Image </button>
+    
+
+<script>
+    const btn=document.getElementById("btn")
+    const image=document.getElementById("image")
+
+    btn.addEventListener("click",function(){
+        image.style.display="none";
+    });
+</script>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ass-6</title>
+</head>
+<body>
+
+  <img id="image" src="https://via.placeholder.com/150" alt="Sample Image"> 
+  <button id="btn">Hide Image</button>
+
+  <script>
+    const btn = document.getElementById("btn");
+    const image = document.getElementById("image");
+
+    btn.addEventListener("click", function () {
+      image.style.display = "none";
+    });
+  </script>
+
+</body>
+</html> -->
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ass-6</title>
+</head>
+<body>
+
+  <ul id="Unordered">
+    <li>Java</li>
+    <li>Python</li>
+    <li>C++</li>
+  </ul>
+
+  <button id="btn">Add Item</button>
+
+  <script>
+    const list = document.getElementById('Unordered');  
+    const addbtn = document.getElementById('btn');
+
+    addbtn.addEventListener("click", function() {
+      const newItem = document.createElement("li"); 
+      newItem.textContent = "DBMS";
+      list.appendChild(newItem);                    
+    });
+  </script>
+
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ass-6</title>
+</head>
+<body>
+
+  <h3> List </h3>
+  <ul id="List">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+
+  <button id="deleteBtn">Delete Last Item</button>
+
+  <script>
+    const deleteBtn = document.getElementById("deleteBtn");
+    const List = document.getElementById("List");
+
+    deleteBtn.addEventListener("click", function() {
+      const lastItem = List.lastElementChild;
+      if (lastItem) {
+        List.removeChild(lastItem);
+      }
+    });
+  </script>
+
+</body>
+</html>  -->

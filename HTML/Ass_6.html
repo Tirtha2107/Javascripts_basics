@@ -1,0 +1,52 @@
+<!-- 
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Greeting</title>
+</head>
+<body>
+
+  <h3>Enter your name:</h3>
+
+  <input type="text" id="name" placeholder="Your name">
+  <button onclick="greet()">Submit</button>
+
+  <p id="greetMsg"></p>
+
+  <script>
+    function greet() {
+      const name = document.getElementById("name").value.trim();
+      document.getElementById("greetMsg").textContent =
+        name ? `Hello, ${name}!` : "";
+    }
+  </script>
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Paragraph Color</title>
+</head>
+<body>
+
+  <p> JavaScript is a scripting language used to make web pages interactive.</p>
+  <p>It can manipulate HTML and CSS, respond to user events, and control browser behavior..</p>
+  <p>JavaScript runs directly in the browser and is essential for dynamic web applications..</p>
+
+  <button onclick="Green()">Change Color</button>
+
+  <script>
+    function Green() {
+      const paragraphs = document.querySelectorAll("p");
+      paragraphs.forEach(p => {
+        p.style.color = "green";
+      });
+    }
+  </script>
+
+</body>
+</html>
